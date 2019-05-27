@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fade6ea2-a65f-440e-8e6c-44f74ad5cc21" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CivilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CivilesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EdadesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EdadesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LocalidadesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/LocalidadesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PreguntasController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PreguntasController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Preguntas.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Preguntas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Civiles/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Civiles/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Civiles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Civiles/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Edades/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Edades/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Localidades/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Localidades/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Usuarios/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Usuarios/edit.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="fade6ea2-a65f-440e-8e6c-44f74ad5cc21" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -367,12 +355,12 @@
       <workItem from="1558478169744" duration="5377000" />
       <workItem from="1558556562841" duration="139000" />
       <workItem from="1558701610015" duration="283000" />
-      <workItem from="1558949894230" duration="4964000" />
+      <workItem from="1558949894230" duration="5561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139021000" />
+    <option name="totallyTimeSpent" value="139618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
