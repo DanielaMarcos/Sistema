@@ -62,10 +62,10 @@ class CivilesController extends Controller
      * @param  \App\Civiles  $civiles
      * @return \Illuminate\Http\Response
      */
-    public function edit(Civiles $civil)
+    public function edit(Civiles $civile)
     {
         //
-        return view("Civiles.edit",compact('civil'));
+        return view("Civiles.edit",compact('civile'));
     }
 
     /**
@@ -75,10 +75,10 @@ class CivilesController extends Controller
      * @param  \App\Civiles  $civiles
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Civiles $civil)
+    public function update(Request $request, Civiles $civile)
     {
         //
-        $civil->update($request->all());
+        $civile->update($request->all());
         return redirect("civiles");
     }
 

@@ -37,6 +37,7 @@
                 </div>
 
                 <div>
+                    <label for="exampleInputPassword2"> Estado civil</label>
                     <select name="id_estadoc" id="">
                         <option value="">Selecciona una opcion</option>
                         @foreach($civiles as $civil)
@@ -48,6 +49,7 @@
                 </div>
 
                 <div>
+                    <label for="exampleInputPassword2"> Edad</label>
                     <select name="id_edad" id="">
                         <option value="">Selecciona una opcion</option>
                         @foreach($edades as $edad)
@@ -59,8 +61,9 @@
                 </div>
 
                 <div>
-                    <option value="">Selecciona una opcion</option>
+                    <label for="exampleInputPassword2"> Localidad</label>
                     <select name="id_localidad" id="">
+                        <option value="">Selecciona una opcion</option>
                         @foreach($localidades as $localidad)
 
                             <option value="{{$localidad->id_localidad}}" {{$localidad->id_localidad==$usuario->id_localidad?"selected":""}} >{{$localidad->descripcion}}</option>

@@ -26,8 +26,11 @@
                             <td>{{$civil->descripcion}}</td>
 
                             <td>
-                                <a href="{{route("civiles.edit",$civil->id_estadoc)}}" class="btn btn-success" name="actualizar"><i class="far fa-edit"></i></a>
+                                <button href="{{route("civiles.edit",$civil->id_estadoc)}}" class="btn btn-success" name="actualizar"><i class="far fa-edit"></i></button>
+
+
                             </td>
+
 
                             <td>
 

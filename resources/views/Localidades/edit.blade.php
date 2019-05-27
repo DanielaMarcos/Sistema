@@ -12,20 +12,20 @@
 
     <div class="row">
         <div class="col-4 offset-4">
-            <form method="post" action="{{route("localidades.update",$localidad->id_localidad)}}">
+            <form method="post" action="{{route("localidades.update",$localidade->id_localidad)}}">
                 @csrf
                 @method("PUT")
                 <div class="form-group">
 
                     <label for="descripcion"> Nombre Localidad</label>
-                    <input type="text" class="form-control" name="descripcion" value="{{$localidad->descripcion}}"  placeholder="Nombre">
+                    <input type="text" class="form-control" name="descripcion" value="{{$localidade->descripcion}}"  placeholder="Nombre">
 
                     <label for="exampleInputPassword2"> Municipio</label>
 
                     <select name="id_municipio" id="">
                         <option value="">Selecciona una opcion</option>
                         @foreach($municipios as $municipio)
-                            <option value="{{$municipio->id_municipio}}" {{$municipio->id_municipio==$localidad->id_municipio?"selected":""}} >{{$municipio->nombre_mun}}</option>
+                            <option value="{{$municipio->id_municipio}}" {{$municipio->id_municipio==$localidade->id_municipio?"selected":""}} >{{$municipio->nombre_mun}}</option>
                         @endforeach
                     </select>
 

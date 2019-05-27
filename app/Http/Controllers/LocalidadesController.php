@@ -63,11 +63,11 @@ class LocalidadesController extends Controller
      * @param  \App\Localidades  $localidades
      * @return \Illuminate\Http\Response
      */
-    public function edit(Localidades $localidad)
+    public function edit(Localidades $localidade)
     {
         //
         $municipios = Municipios::all();
-        return view("Localidades.edit",compact('localidad','municipios'));
+        return view("Localidades.edit",compact('localidade','municipios'));
 
     }
 
@@ -78,10 +78,10 @@ class LocalidadesController extends Controller
      * @param  \App\Localidades  $localidades
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Localidades $localidad)
+    public function update(Request $request, Localidades $localidade)
     {
         //
-        $localidad->update($request->all());
+        $localidade->update($request->all());
         return redirect("localidades");
     }
 

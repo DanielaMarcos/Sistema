@@ -12,13 +12,13 @@
 
     <div class="row">
         <div class="col-4 offset-4">
-            <form method="post" action="{{route("civiles.update",$civil->id_estadoc)}}">
+            <form method="post" action="{{route("civiles.update",$civile->id_estadoc)}}">
                 @csrf
                 @method("PUT")
                 <div class="form-group">
 
                     <label for="descripcion"> Nombre Estado civil</label>
-                    <input type="text" value="{{$civil->descripcion}}" id="descripcion" class="form-control" name="descripcion" placeholder="Estado civil">
+                    <input type="text" value="{{$civile->descripcion}}" id="descripcion" class="form-control" name="descripcion" placeholder="Estado civil">
 
 
 

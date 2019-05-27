@@ -62,10 +62,10 @@ class EdadesController extends Controller
      * @param  \App\Edades  $edades
      * @return \Illuminate\Http\Response
      */
-    public function edit(Edades $edad)
+    public function edit(Edades $edade)
     {
         //
-        return view("Edades.edit",compact('edad'));
+        return view("Edades.edit",compact('edade'));
 
     }
 
@@ -76,10 +76,10 @@ class EdadesController extends Controller
      * @param  \App\Edades  $edades
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Edades $edad)
+    public function update(Request $request, Edades $edade)
     {
         //
-        $edad->update($request->all());
+        $edade->update($request->all());
         return redirect("edades");
     }
 
